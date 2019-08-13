@@ -1,7 +1,7 @@
 # Provedor
 Desafio Provedor
 
-	A DevOZ NET é uma empresa que fornece internet na grande Florianópolis. Recentemente a empresa se viu com um problema grave, não tinha controle de quais planos os seus clientes atuais estavam utilizando. Para resolver isso a DevOZ NET precisa que você desenvolva um sistema de gestão de Clientes/Planos.
+A DevOZ NET é uma empresa que fornece internet na grande Florianópolis. Recentemente a empresa se viu com um problema grave, não tinha controle de quais planos os seus clientes atuais estavam utilizando. Para resolver isso a DevOZ NET precisa que você desenvolva um sistema de gestão de Clientes/Planos.
 
 Requisitos mínimos
 Interface para cadastro/listagem de planos e clientes.
