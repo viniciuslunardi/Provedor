@@ -26,6 +26,7 @@ A implementação deve prever no mínimo 3 entidades:
 | name             | `string`      | Nome da provedor                                                                                |
 | value            | `string`      | CNPJ do provedor                                                                                |
 | provider         | `Provedor`    | Referência ao provedor que possui o plano                                                       |
+| clients          | `List<Cliente>`| Referência ao provedor que possui o plano                                                       |
 
 ### Cliente
 | Nome do atributo | Tipo          | Comentário                                                                                      |
