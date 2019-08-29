@@ -1,17 +1,12 @@
 const express = require('express');
-
-const Provider = require('../models/provedor');
-// const Client = require("../models/cliente");
-// const Plan = require('../models/plano');
-//
-
+const Provider = require('../models/Provider');
 const router = express.Router();
 
-router.post('/register', async (req, res) => {
+router.post('/register-provider', async (req, res) => {
 
-    const { id } = req.body;
+    const { name } = req.body;
     try {
-        if (await Provider.findOne({ id })) {
+        if (await Provider.findOne({ name })) {
             return res.send(400).send({ error: 'Provider already exists'})
         }
 
@@ -26,6 +21,16 @@ router.post('/register', async (req, res) => {
         return res.status(400).send({ error: 'Registration failed'});
     }
 
+});
+
+router.post('/authenticated-provider', async (req, res) => {
+    const { name } = req.body;
+    const provider = await Provider.findOne({name});
+    if (!provider) {
+        return res.status(400).send({error: "Provider not found"});
+    }
+   //  //
+   // const token = jwt.sign({ id: provider.id});
 });
 
 module.exports = app => app.use("/auth", router);

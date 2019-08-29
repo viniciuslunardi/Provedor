@@ -1,10 +1,10 @@
 const mongoose = require('../database');
 
 const ProviderSchema = new mongoose.Schema({
-  id: {
-      type: Number,
-      require: true
-  },
+  // id: {
+  //     type: Number,
+  //     require: true
+  // },
 
   name: {
       type: String,
