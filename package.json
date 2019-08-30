@@ -1,0 +1,24 @@
+{
+  "name": "provedor",
+  "version": "1.0.0",
+  "description": "desafio estagio devoz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciuslunardi/Provedor.git"
+  },
+  "keywords": [
+    "node",
+    "react",
+    "provedor"
+  ],
+  "author": "vinicius lunardi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viniciuslunardi/Provedor/issues"
+  },
+  "homepage": "https://github.com/viniciuslunardi/Provedor#readme"
+}
