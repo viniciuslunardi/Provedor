@@ -1,0 +1,104 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "plan",
+        "designer|userClassName": "Plan",
+        "height": 250,
+        "title": "Cadastro de plano",
+        "width": 400
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "title": "string",
+        "width": "auto"
+    },
+    "name": "MyPanel1",
+    "designerId": "5516e270-fca8-4fbd-9779-3a130963f116",
+    "viewControllerInstanceId": "35c9de2b-9b68-4883-8a15-0c6bb0d1e6c4",
+    "viewModelInstanceId": "1e9f441f-2bc5-47f0-a83d-9e4cb84f07fa",
+    "cn": [
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "name": "MyContainer10",
+            "designerId": "fd3a3cef-4a74-4a0f-99a8-9caf0cc558e2",
+            "cn": [
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": "Nome"
+                    },
+                    "configAlternates": {
+                        "fieldLabel": "string"
+                    },
+                    "name": "MyTextField5",
+                    "designerId": "c89a1e8e-6c66-414e-ab7c-c17473d17471"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": "Valor"
+                    },
+                    "configAlternates": {
+                        "fieldLabel": "string"
+                    },
+                    "name": "MyTextField6",
+                    "designerId": "bb883dca-4049-4662-b002-6a69dfee5448"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": "Provedor"
+                    },
+                    "configAlternates": {
+                        "fieldLabel": "string"
+                    },
+                    "name": "MyTextField7",
+                    "designerId": "fe5785d1-6b48-42ab-a5f5-c881ee303582"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": "Clientes"
+                    },
+                    "configAlternates": {
+                        "fieldLabel": "string"
+                    },
+                    "name": "MyTextField8",
+                    "designerId": "4e21307f-f6f7-4eef-be38-ea9cd06070a1"
+                }
+            ]
+        }
+    ]
+}

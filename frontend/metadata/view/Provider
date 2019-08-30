@@ -1,0 +1,88 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "provider",
+        "designer|userClassName": "Provider",
+        "height": 250,
+        "title": "Cadastro de provedor",
+        "width": 400
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "title": "string",
+        "width": "auto"
+    },
+    "name": "MyPanel",
+    "designerId": "321f19c8-efd3-4ee3-87dc-0447f1b4c5c8",
+    "viewControllerInstanceId": "5cd00360-e6e7-4694-aaf7-0d21dc49d679",
+    "viewModelInstanceId": "dd0e03df-5e12-4f65-a5e4-5ff20d646ee6",
+    "cn": [
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "name": "MyContainer8",
+            "designerId": "fa577d58-5027-4839-a3f4-c5d36bab2618",
+            "cn": [
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": "Nome"
+                    },
+                    "configAlternates": {
+                        "fieldLabel": "string"
+                    },
+                    "name": "MyTextField2",
+                    "designerId": "d4e5d427-fce2-43f7-b595-adad9749556e"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": "CNPJ"
+                    },
+                    "configAlternates": {
+                        "fieldLabel": "string"
+                    },
+                    "name": "MyTextField3",
+                    "designerId": "94059797-1589-4a5e-ba47-1dda9131e6b3"
+                },
+                {
+                    "type": "Ext.form.field.ComboBox",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": "Planos"
+                    },
+                    "configAlternates": {
+                        "fieldLabel": "string"
+                    },
+                    "name": "MyComboBox",
+                    "designerId": "87ab6475-129a-483d-9143-4b1b4ad52ee9"
+                }
+            ]
+        }
+    ]
+}

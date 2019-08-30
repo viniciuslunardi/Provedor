@@ -1,0 +1,96 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "consulta",
+        "designer|userClassName": "Consulta",
+        "height": 250,
+        "title": "Consulta",
+        "width": 400
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "title": "string",
+        "width": "auto"
+    },
+    "name": "MyPanel",
+    "designerId": "1d6b5c62-aa7d-4ac1-b668-996fefbd2fdc",
+    "viewControllerInstanceId": "70be8de4-0a3e-45a5-9af9-17aa644bfbe7",
+    "viewModelInstanceId": "c228b933-1f41-4d43-937d-019eb13370ff",
+    "cn": [
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "padding": 5
+            },
+            "configAlternates": {
+                "padding": "auto"
+            },
+            "name": "MyContainer3",
+            "designerId": "64b13564-9465-4ca1-b61b-2c625ab79cfa",
+            "cn": [
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "text": "MyButton"
+                    },
+                    "configAlternates": {
+                        "text": "string"
+                    },
+                    "name": "MyButton3",
+                    "designerId": "69019925-c171-4b16-a331-c4a40e6ce6c3"
+                }
+            ]
+        },
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "padding": 5
+            },
+            "configAlternates": {
+                "padding": "auto"
+            },
+            "name": "MyContainer4",
+            "designerId": "24345bce-e7f9-4a72-aeb8-07b46e825d6b",
+            "cn": [
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "text": "MyButton"
+                    },
+                    "configAlternates": {
+                        "text": "string"
+                    },
+                    "name": "MyButton4",
+                    "designerId": "b59c6e58-71c5-4335-8e73-e0300f365d64"
+                }
+            ]
+        }
+    ]
+}
