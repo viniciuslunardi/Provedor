@@ -1,5 +1,5 @@
 const mongoose = require('../database');
-const Provider = require('provedor');
+
 
 const PlanSchema = new mongoose.Schema({
     id: {
@@ -18,7 +18,7 @@ const PlanSchema = new mongoose.Schema({
     },
 
     provider: {
-        type: Provider,
+        type: String,
         required: true
     },
 

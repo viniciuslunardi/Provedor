@@ -33,4 +33,19 @@ router.post('/authenticated-provider', async (req, res) => {
    // const token = jwt.sign({ id: provider.id});
 });
 
-module.exports = app => app.use("/auth", router);
+
+
+module.exports = {
+    add: function (req, res) {
+        let task = new Provider(req.body);
+
+        task.save()
+            .then(task => res.status(200).json(task))
+            .catch(err => {
+                res.status(400).send("There's was an error while adding the provider", err)
+            });
+    },
+
+};
+
+//module.exports = app => app.use("/auth", router);
